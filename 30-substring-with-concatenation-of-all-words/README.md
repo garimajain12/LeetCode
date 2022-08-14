@@ -5,23 +5,23 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> s = "barfoothefoobarman", words = ["foo","bar"]
+<pre style="position: relative;"><strong>Input:</strong> s = "barfoothefoobarman", words = ["foo","bar"]
 <strong>Output:</strong> [0,9]
 <strong>Explanation:</strong> Substrings starting at index 0 and 9 are "barfoo" and "foobar" respectively.
 The output order does not matter, returning [9,0] is fine too.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> s = "wordgoodgoodgoodbestword", words = ["word","good","best","word"]
+<pre style="position: relative;"><strong>Input:</strong> s = "wordgoodgoodgoodbestword", words = ["word","good","best","word"]
 <strong>Output:</strong> []
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> s = "barfoofoobarthefoobarman", words = ["bar","foo","the"]
+<pre style="position: relative;"><strong>Input:</strong> s = "barfoofoobarthefoobarman", words = ["bar","foo","the"]
 <strong>Output:</strong> [6,9,12]
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
