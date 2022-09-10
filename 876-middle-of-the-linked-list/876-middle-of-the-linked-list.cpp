@@ -13,6 +13,7 @@ public:
     ListNode* middleNode(ListNode* head) {
         int size=0;
         ListNode* temp=head;
+        
         while(temp){
             size++;
             temp=temp->next;
@@ -23,6 +24,9 @@ public:
         for(int i=0;i<mid;i++){
             temp=temp->next;
         }
+        
         return temp;
     }
 };
+
+
