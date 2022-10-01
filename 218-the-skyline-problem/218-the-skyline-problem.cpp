@@ -5,12 +5,12 @@ public:
         vector<vector<int>> ans;
         for(auto it:build)
         {
-            vt.push_back({it[0],-it[2]}); //leftWall
-            vt.push_back({it[1],it[2]}); //rightWall
+            vt.push_back({it[0],-it[2]}); 
+            vt.push_back({it[1],it[2]}); 
         }
         sort(vt.begin(),vt.end());
         multiset<int> mt{0};
-        int top = 0; // record the height of skyLine
+        int top = 0; 
         for(auto itr:vt)
         {
             if(itr.second < 0)
@@ -21,9 +21,8 @@ public:
             {
                 mt.erase(mt.find(itr.second));
             }
-            if(*mt.rbegin() != top) // when top height changes then 
+            if(*mt.rbegin() != top) 
             {
-                // cout<<itr.second<<" "<<top<<" ";
                 top = *mt.rbegin();
                 ans.push_back({itr.first,top});
             }
